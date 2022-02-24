@@ -20,7 +20,7 @@ function writer(){
     i=0;
 
     function getInput(){
-        let userInput = prompt('Do you like kittens?\n Y or y ') ;
+        let userInput = prompt('Do you like kittens?\n Y or y ') ; //N
         return userInput;
     }
     userInput = getInput()
@@ -38,6 +38,28 @@ function writer(){
     }//end while
 
 } 
+
+
+
+function likeSexyBacon(){
+    temp = prompt('How many times would you like to see some sexy bacon?');
+    return( temp);
+}
+
+let baconBits = "http://turntable.kagiso.io/jacaranda/uploads/2014/05/29/large-3228-kevin-bacon.jpeg" ;
+
+function addBaconBits(){
+    t=likeSexyBacon();
+     for( i=1, i < t ,i++) {
+         document.write(  '<img src=" ' + baconBits +'">')
+     }
+
+
+
+}
+
+
+
 
 // confirm('Reallyyy if you put no that is \n Disgraceful....');
 
