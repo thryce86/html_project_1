@@ -1,3 +1,6 @@
+
+function writer(){
+
 let userInput = prompt('Do you like kittens?\n Y or y ') ;
 
 // let possibleInput = {'Y' , 'y' , 'yes', "Yes"};
@@ -8,7 +11,7 @@ if(userInput == "y"|| userInput == "y"){
 }
 confirm("Press a button!");
 
-
+}
 
 
 
@@ -29,6 +32,7 @@ function addBaconBits(){
      for( let i=1; i <= t ; i++ ) {
         // document.write('asdfihdsafyh') ;
          document.write(  '<img src=" ' + baconBits +'">')
+         document.write(  'Sexy Bacon count: '+i);
      }
 
     }
